@@ -1,0 +1,2 @@
+# GoUkraine
+WILL NOT BEING UPDATED
