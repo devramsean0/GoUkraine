@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GoUkraine</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+        <style>
+            input {
+                background-color: black;
+                color: white;
+                font-family: 'Syne Mono', monospace;
+            }
+            body {
+                display: flex;
+                justify-content: center;
+                color: burlywood;
+                font-family: 'Open Sans Condensed', sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Go ukraine!</h1>
+        <div id="box">
+            <p>Do you support ukraine?</p>
+        </div>
+        <input name="Yes" onclick="document.getElementById('box').innerHTML = '<p>Good Job! :)</p>'">Yes</input>
+        <br />
+        <input name="No" onclick="document.getElementById('box').innerHTML = '<p>Bad Job! <br /> GO AWAY :('">No</input>
+    </body>
+</html>
